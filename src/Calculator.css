@@ -1,0 +1,56 @@
+.cal{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #52616b;
+    color: #f0f5f9;
+    margin-top: 30px;
+   
+    
+}
+.Dev{
+   
+    background-color: red;
+    text-align: center; 
+    padding: 20px;
+    background-color: #c9d6df;
+
+}
+form input{
+    border: none;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    font-size: 16px;
+    background-color: rgb(116, 116, 170);
+    margin: 2px;
+    border-radius: 10px;
+    color: black;
+    font-weight: bolder;
+    cursor: pointer;
+}
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px 10px 15px 10px ;
+    
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 40px;
+    padding: 5px 10px;
+    background-color: white;
+
+}
+.equal{
+    width: 123px;
+}
+
+.Ac{
+    width: 250px;
+}
+form input[type="button"]:hover{
+    background-color: white;
+}
